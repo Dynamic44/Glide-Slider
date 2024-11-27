@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "column",
+    "name": "Progress Bar Generator",
+    "description": "Generates a dynamic progress bar based on step titles, current step, and main color.",
+    "author": "Marco Volpato <marco@loqode.com>",
+    "params": [
+      {
+        "name": "steps",
+        "displayName": "Steps",
+        "type": "string"
+      },
+      {
+        "name": "currentStep",
+        "displayName": "Current Step",
+        "type": "number"
+      },
+      {
+        "name": "primaryColor",
+        "displayName": "Primary Color",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string",
+      "description": "HTML string for the generated progress bar."
+    }
+  }
+]
